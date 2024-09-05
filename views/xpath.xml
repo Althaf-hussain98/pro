@@ -1115,7 +1115,7 @@
                         </div>
                         <div style='float:right'>
                             <p style="text-align: right;">
-                                <strong> <h3>  هل كان لديك أي من التالي؟ (يرجى تحديد المربع) </h3> </strong>
+                                <strong> <h2>  هل كان لديك أي من التالي؟ (يرجى تحديد المربع) </h2> </strong>
            
                             </p>
                         </div>
@@ -1123,8 +1123,18 @@
                         
                     </div>
                     <separator />
-                    <table style="width:100%;">
-                        <tr>
+                    <style>
+                        .markqs tr td{
+                            border: 0.5px solid grey;
+                        }
+                        .markqs{
+                            margin-bottom: 10px;
+                        }
+                        
+                    </style>
+                    <table class='markqs' style="width:100%;">
+                       
+                        <tr style='border: none;'> 
                             <th style="width:8%;"></th>
                             <th style="width:25%;text-align: right;"></th>
                             <th style="width:8%;"></th>
@@ -1137,19 +1147,23 @@
                                 <field name="q2"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q2" string=" فقر الدم"/>
+                                <label for="q2" />
+                                <label for="q2" string="/ فقر الدم"/>
+
                             </td>
                             <td style="text-align: right;">
                                 <field name="q3"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q3" string=" التهاب المفاصل والروماتيزم"/>
+                                <label for="q3" />
+                                <label for="q3" string=" /التهاب المفاصل والروماتيزم"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q4"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q4" string=" المفاصل الصناعية"/>
+                                <label for="q4" />
+                                <label for="q4" string="/ المفاصل الصناعية"/>
                             </td>
                         </tr>
                         <tr>
@@ -1157,19 +1171,22 @@
                                 <field name="q5"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q5" string=" الربو"/>
+                                <label for="q5" />
+                                <label for="q5" string=" / الربو"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q6"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q6" string=" آلام الظهر"/>
+                                <label for="q6" />
+                                <label for="q6" string="/ آلام الظهر"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q7"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q7" string="علاج الكورتيزون"/>
+                                <label for="q7" />
+                                <label for="q7" string="/ علاج الكورتيزون"/>
                             </td>
                         </tr>
                         <tr>
@@ -1177,19 +1194,22 @@
                                 <field name="q8"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q8" string=" السعال المستمر"/>
+                                <label for="q8" />
+                                <label for="q8" string="/ السعال المستمر"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q9"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q9" string=" داء السكري"/>
+                                <label for="q9" />
+                                <label for="q9" string="/ داء السكري"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q10"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q10" string=" الصرع"/>
+                                <label for="q10" />
+                                <label for="q10" string="/ الصرع"/>
                             </td>
                         </tr>
                         <tr>
@@ -1197,19 +1217,22 @@
                                 <field name="q11"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q11" string=" الإغماء"/>
+                                <label for="q11"/>
+                                <label for="q11" string="/ الإغماء"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q12"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q12" string=" الجلوكوما"/>
+                                <label for="q12"/>
+                                <label for="q12" string=" / الجلوكوما"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q13"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q13" string=" الصداع النصفي"/>
+                                <label for="q13" />
+                                <label for="q13" string="/ الصداع النصفي"/>
                             </td>
                         </tr>
                         <tr>
@@ -1217,19 +1240,22 @@
                                 <field name="q14"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q14" string=" الهيموفيليا"/>
+                                <label for="q14" />
+                                <label for="q14" string="/ الهيموفيليا"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q15"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q15" string=" أمراض القلب"/>
+                                <label for="q15" />
+                                <label for="q15" string="/ أمراض القلب"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q16"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q16" string=" مشاكل صمام القلب"/>
+                                <label for="q16" />
+                                <label for="q16" string="/ مشاكل صمام القلب"/>
                             </td>
                         </tr>
                         <tr>
@@ -1237,19 +1263,22 @@
                                 <field name="q17"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q17" string="جراحة القلب"/>
+                                <label for="q17" />
+                                <label for="q17" string="/جراحة القلب"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q18"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q18" string=" التهاب الكبد"/>
+                                <label for="q18" />
+                                <label for="q18" string="/ التهاب الكبد"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q19"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q19" string=" ارتفاع ضغط الدم"/>
+                                <label for="q19" />
+                                <label for="q19" string=" / ارتفاع ضغط الدم"/>
                             </td>
                         </tr>
                         <tr>
@@ -1257,19 +1286,22 @@
                                 <field name="q20"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q20" string=" فيروس نقص المناعة المكتسبة"/>
+                                <label for="q20" />
+                                <label for="q20" string="/ فيروس نقص المناعة المكتسبة"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q21"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q21" string=" ألم الفك"/>
+                                <label for="q21" />
+                                <label for="q21" string="/ ألم الفك"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q22"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q22" string=" مرض الكلى"/>
+                                <label for="q22" />
+                                <label for="q22" string="/ مرض الكلى"/>
                             </td>
                         </tr>
                         <tr>
@@ -1277,19 +1309,22 @@
                                 <field name="q23"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q23" string="منظم ضربات القلب"/>
+                                <label for="q23" />
+                                <label for="q23" string="/ منظم ضربات القلب"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q24"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q24" string=" نزيف استمر لفترة طويلة"/>
+                                <label for="q24" />
+                                <label for="q24" string="/ نزيف استمر لفترة طويلة"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q25"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q25" string=" أمراض الجهاز التنفسي"/>
+                                <label for="q25" />
+                                <label for="q25" string="/ أمراض الجهاز التنفسي"/>
                             </td>
                         </tr>
                         <tr>
@@ -1297,19 +1332,22 @@
                                 <field name="q26"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q26" string=" مشاكل في الكلى"/>
+                                <label for="q26"/>
+                                <label for="q26" string="/ مشاكل في الكلى"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q27"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q27" string=" أمراض الكبد"/>
+                                <label for="q27" />
+                                <label for="q27" string="/ أمراض الكبد"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q28"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q28" string=" مشكلة الغدة الدرقية"/>
+                                <label for="q28" />
+                                <label for="q28" string="/ مشكلة الغدة الدرقية"/>
                             </td>
                         </tr>
 
@@ -1367,10 +1405,24 @@
                             </td>
                         </tr>
                     </table>
-                    <p style="text-align: right;">
-                        <strong>هل لديك حساسيه؟</strong>
-                    </p>
-                    <table style="width:100%;">
+                   
+                    <div style="display:block ruby">
+                        <div>
+                            <p style="text-align: left;">
+                                <strong> <h3> Do you have allergies to?  </h3></strong>
+           
+                            </p>
+                        </div>
+                        <div style='float:right'>
+                            <p style="text-align: right;">
+                                <strong> <h2>   هل لديك حساسيه؟  </h2> </strong>
+           
+                            </p>
+                        </div>
+                       
+                        
+                    </div>
+                    <table class='markqs' style="width:100%;">
                         <tr>
                             <th style="width:8%;"></th>
                             <th style="width:25%;text-align: right;"></th>
@@ -1384,19 +1436,22 @@
                                 <field name="q33"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q33" string=" اللاتكس"/>
+                                <label for="q33" />
+                                <label for="q33" string="/ اللاتكس"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q34"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q34" string=" مخدر موضعي"/>
+                                <label for="q34"/>
+                                <label for="q34" string="/ مخدر موضعي"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q35"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q35" string=" البنسلين"/>
+                                <label for="q35"/>
+                                <label for="q35" string="/ البنسلين"/>
                             </td>
                         </tr>
                         <tr>
@@ -1404,35 +1459,40 @@
                                 <field name="q36"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q36" string=" السلفا"/>
+                                <label for="q36" />
+                                <label for="q36" string="/ السلفا"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q37"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q37" string=" الأسبرين"/>
+                                <label for="q37" />
+                                <label for="q37" string="/ الأسبرين"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q38"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q38" string=" البروفين"/>
+                                <label for="q38" />
+                                <label for="q38" string="/ البروفين"/>
                             </td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td style='border:none'></td>
+                            <td style='border:none' ></td>
                             <td style="text-align: right;">
                                 <field name="q39"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q39" string=" اليود"/>
+                                <label for="q39" />
+                                <label for="q39" string=" / اليود"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q40"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q40" string=" لا شيء"/>
+                                <label for="q40" />
+                                <label for="q40" string="/ لا شيء"/>
                             </td>
                         </tr>
                     </table>
@@ -1544,7 +1604,7 @@
                     <p style="text-align: right;">
                         <strong>فيما يخص طب الأسنان؟</strong>
                     </p>
-                    <table style="width:100%;">
+                    <table  style="width:100%;">
                         <tr>
                             <th style="width:25%;"></th>
                             <th style="width:50%;"></th>
@@ -1670,7 +1730,7 @@
                        
                         
                     </div>
-                    <table style="width:100%;">
+                    <table class='markqs' style="width:100%;">
                         <tr>
                             <th style="width:15%;"></th>
                             <th style="width:40%;text-align: right;"></th>
@@ -1682,13 +1742,15 @@
                                 <field name="q57"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q57" string=" نزيف أو التهاب اللثة"/>
+                                <label for="q57"  />
+                                <label for="q57" string=" / نزيف أو التهاب اللثة"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q58"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q58" string=" عض الخدود / الشفتان"/>
+                                <label for="q58" />
+                                <label for="q58" string=" / عض الخدود / الشفتان"/>
                             </td>
                         </tr>
                         <tr>
@@ -1696,13 +1758,15 @@
                                 <field name="q59"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q59" string=" الحشوة المكسورة"/>
+                                <label for="q59" />
+                                <label for="q59" string="/ الحشوة المكسورة"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q60"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q60" string=" صرير الأسنان"/>
+                                <label for="q60" />
+                                <label for="q60" string=" / صرير الأسنان"/>
                             </td>
                         </tr>
                         <tr>
@@ -1710,13 +1774,15 @@
                                 <field name="q61"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q61" string=" طرقعة المفصل "/>
+                                <label for="q61" />
+                                <label for="q61" string="/ طرقعة المفصل "/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q62"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q62" string="من الصعب فتح / إغلاق الفم"/>
+                                <label for="q62" />
+                                <label for="q62" string="/ - من الصعب فتح / إغلاق الفم"/>
                             </td>
                         </tr>
                         <tr>
@@ -1724,13 +1790,15 @@
                                 <field name="q63"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q63" string=" بثور متكررة (الشفاه / الفم)"/>
+                                <label for="q63" />
+                                <label for="q63" string="/ بثور متكررة (الشفاه / الفم)"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q64"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q64" string="تأثير الغذاء"/>
+                                <label for="q64"/>
+                                <label for="q64" string=" / تأثير الغذاء"/>
                             </td>
 
                         </tr>
@@ -1739,12 +1807,14 @@
                                 <field name="q65"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q65" string=" جمع الطعام بين الأسنان"/>
+                                <label for="q65" />
+                                <label for="q65" string="/ جمع الطعام بين الأسنان"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q66"/>
                             </td>
                             <td style="text-align: right;">
+                                <label for="q66" />
                                 <label for="q66" string="معالجة قناة الجذر"/>
                             </td>
                         </tr>
@@ -1753,13 +1823,15 @@
                                 <field name="q67"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q67" string=" أسنان متحركة"/>
+                                <label for="q67" />
+                                <label for="q67" string="/ أسنان متحركة"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q68"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q68" string="تورم أو كتل في الفم"/>
+                                <label for="q68" />
+                                <label for="q68" string="/تورم أو كتل في الفم"/>
                             </td>
                         </tr>
                         <tr>
@@ -1767,13 +1839,15 @@
                                 <field name="q69"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q69" string=" تقويم الأسنان"/>
+                                <label for="q69"/>
+                                <label for="q69" string="/ تقويم الأسنان"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q70"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q70" string="  ﺣﺴﺎسية ﻟﻠﺤﺮارة"/>
+                                <label for="q70" />
+                                <label for="q70" string=" / ﺣﺴﺎسية ﻟﻠﺤﺮارة"/>
                             </td>
                         </tr>
                         <tr>
@@ -1781,13 +1855,15 @@
                                 <field name="q71"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q71" string="  حساسية للبرد"/>
+                                <label for="q71" />
+                                <label for="q71" string="/  حساسية للبرد"/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q72"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q72" string=" حساسية للحلو "/>
+                                <label for="q72" />
+                                <label for="q72" string="/ حساسية للحلو "/>
                             </td>
                         </tr>
                         <tr>
@@ -1795,23 +1871,26 @@
                                 <field name="q73"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q73" string=" ألم عند العض "/>
+                                <label for="q73"/>
+                                <label for="q73" string="/ ألم عند العض "/>
                             </td>
                             <td style="text-align: right;">
                                 <field name="q74"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q74" string=" التحول في العض"/>
+                                <label for="q74" />
+                                <label for="q74" string="/ التحول في العض"/>
                             </td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td style='border:none' ></td>
+                            <td style='border:none'></td>
                             <td style="text-align: right;">
                                 <field name="q75"/>
                             </td>
                             <td style="text-align: right;">
-                                <label for="q75" string=" طعم غير سار / رائحة الفم الكريهة"/>
+                                <label for="q75" />
+                                <label for="q75" string="/ طعم غير سار / رائحة الفم الكريهة"/>
                             </td>
                         </tr>
                     </table>
